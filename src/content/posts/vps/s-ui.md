@@ -9,7 +9,7 @@ tags: ["vps", "s-ui", "面板"]
 ## 系统更新(Debian/Ubuntu)
 
 ```shell
-apt update -y && apt install -y curl socat wget
+ apt update -y && apt install -y curl socat wget
 ```
 
 ## 安装 S-UI 面板
