@@ -99,7 +99,7 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx,astro}": "biome check --apply --no-bail",
+    "*.{js,ts,jsx,tsx,astro}": "biome check --write",
     "*.{js,ts,jsx,tsx,astro,css,json}": "prettier --write"
   },
   "packageManager": "pnpm@9.14.4"
