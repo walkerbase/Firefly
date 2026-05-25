@@ -29,7 +29,7 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=4096
 
       - name: 部署到服务器
-        uses: easingthemes/ssh-deploy@v5
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
